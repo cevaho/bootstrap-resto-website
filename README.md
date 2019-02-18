@@ -19,7 +19,7 @@ _Objectifs :_
 
 ## Composition du site
 
-* Une page Accueil avec un composant [Jumbotron/parallax](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php),une class bootstrap.  
+* Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible.  
 		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut.  
 * Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
 * Une page Photos avec une galerie photos (minimum 10). 
