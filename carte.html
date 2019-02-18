@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Restaurant with Bootstrap layout</title>
-    <meta name="Description" content="Restaurant with Bootstrap for a responsive website">
+    <title>Carte des restaurants</title>
+    <meta name="Description" content="voici la liste de nos plats">
     <meta name="author" content="Cedric">
     <link rel="shortcut icon" type="png" href="assets/img/cookiebw.png">
 
@@ -16,26 +16,10 @@
   <body>
       <head>
 
-		<!-- 
-			navbar associé à navbar-expand permet de rendre la navigation responsive
-
-			navbar-expand- indique la taille d'ecran où on réduit la navigation 
-					et devient invisible tant qu'on ne clique pas sur le btn nav-bar toggler
-
-			navbar-light influence la couleur des liens au choix entre 
-					default (bleu), 
-					dark texte blanc pour fond noir 
-					ou light : text gris
-
-			bg-light influence la couleur de fond de la navigation, ici gris clair
-				
-		-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-			  <!-- LOGO Link to homepage-->
-			  <a class="navbar-brand active" href="#">My Resto Thaï</a>
+			  <a class="navbar-brand" href="index.html">My Resto Thaï</a>
 
-			  <!-- button to display the link in mobile version-->
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -43,9 +27,8 @@
 			  <!-- navigation link -->
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-				    <!-- navbar-nav allows drop-down menu
-					 mr-auto va décaller le contenu d'une collone vers la droite-->
 				    <ul class="navbar-nav mr-auto">
+
 
 				      <!--li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="carte.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Carte</a>
@@ -56,7 +39,7 @@
 						  <a class="dropdown-item" href="#">Something else here</a>
 						</div>
 				      </li-->
-				      <li class="nav-item">
+				      <li class="nav-item active">
 						<a class="nav-link" href="carte.html">Notre carte</a>
 				      </li>
 
@@ -81,15 +64,7 @@
 
       <main>
 
-	<div id="popup">
-	
-	</div>
-
-	<div class="jumbotron">
-		  <div class="container-fluid">
-		    
-		  </div>
-	</div> 
+	<h1>La carte de nos restaurants</h1>
 
 
 
@@ -99,7 +74,7 @@
       <footer>
 
       </footer>
-	<!-- Optional JavaScript -->
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
