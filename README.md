@@ -1,13 +1,14 @@
 # bootstrap-resto-website
 Responsive website using bootstrap  
-  
 
-énnoncé de l'(exercice)[https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap]  
+======== 
 
-Objectifs :   
+énnoncé de l'[exercice](https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Restaurant_Bootstrap)  
+
+_Objectifs :_   
 * Installation de bootstrap avec le lien CDN pour ne pas personnaliser ce fichier dans l'exercice  
 * Un fichier CSS pour tout le site (en plus de celui de Bootstrap)  
-* Utilisation de (FontAwesome)[https://fontawesome.com/start] pour les icones  
+* Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones  
 * Liens relatifs aux autres pages (pas de liens absolus)  
 * Fichiers rangés dans des dossiers (assets, puis css, js et img dedans)  
 * Le site doit être intégralement responsive.  
