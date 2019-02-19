@@ -7,19 +7,19 @@ Responsive website using bootstrap
 
 _Objectifs :_   
 
-* OK Installation de bootstrap avec le lien CDN pour ne pas personnaliser ce fichier dans l'exercice  
-* OK Un fichier CSS pour tout le site (en plus de celui de Bootstrap)  
-* Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones  
-* OK Liens relatifs aux autres pages (pas de liens absolus)  
-* OK Fichiers rangés dans des dossiers (assets, puis css, js et img dedans)  
+* Installation de bootstrap avec le lien CDN pour ne pas personnaliser ce fichier dans l'exercice _OK_  
+* Un fichier CSS pour tout le site (en plus de celui de Bootstrap) _OK_  
+* Liens relatifs aux autres pages (pas de liens absolus) _OK_  
+* Fichiers rangés dans des dossiers (assets, puis css, js et img dedans) _OK_  
+* GitHub : le lien de la page [GitHubPage](https://cevaho.github.io/bootstrap-resto-website/) se trouve à côté de la description (donc il faut une description au repo) ET on veut un readme _OK_  
 * Le site doit être intégralement responsive.  
-* OK GitHub : le lien de la page [GitHubPage](https://cevaho.github.io/bootstrap-resto-website/) se trouve à côté de la description (donc il faut une description au repo) ET on veut un readme  
 * Une favicon  
+* Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones  
 * Lighthouse : 80% sur toutes les catégories  
 
 ## Composition du site
 
-* OK Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible.  
+* Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible._OK_  
 		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut.  
 * Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
 * Une page Photos avec une galerie photos (minimum 10). 
@@ -31,10 +31,10 @@ _Objectifs :_
 
 _Désirs du client_
 
-* OK à l'ouverture de la page d'accueil, il y ait un pop-up qui récupère le prénom du visiteur, 
-		puis affiche un "bonjour {nom du visiteur} !" avant le texte de présentation du restaurant.  
+* à l'ouverture de la page d'accueil, il y ait un pop-up qui récupère le prénom du visiteur, 
+		puis affiche un "bonjour {nom du visiteur} !" avant le texte de présentation du restaurant._OK_  
 * Le client souhaite que dans la partie Restaurants, en plus de l'affichage des horaires et des jours d'ouverture, 
-		il y ait une mention interactive "Nous sommes le { date et heure }, le restaurant est donc { ouvert / fermé }" en fonction de l'heure et la date de consultation du site.
+		il y ait une mention interactive "Nous sommes le { date et heure }, le restaurant est donc { ouvert / fermé }" en fonction de l'heure et la date de consultation du site._OK_
 
 _Conseils_
 
