@@ -68,7 +68,44 @@
 
       <main class=" col-12 col-lg-9 col-xl-9">
 
-	<h1>Contactez nous !</h1>
+	<h1>Contactez nous vite pour une réservation !</h1>
+
+	<form>
+		<div class="form-group">
+			<label for="firstnamer">Prénom :</label>		
+			<input class="form-control" id="firstnamer" type="text" placeholder="Inscrivez ici votre prénom">
+		</div>
+		<div class="form-group">
+			<label for="lastnamer">Nom :</label>		
+			<input class="form-control" id="lastnamer" type="text" placeholder="Inscrivez ici votre nom">
+		</div>
+  		<div class="form-group">
+    			<label for="emailer">Adresse e-mail :</label>
+    			<input type="email" class="form-control" id="emailer" aria-describedby="emailHelp" 
+				placeholder="Inscrivez ici votre adresse e-mail">
+   			 <small id="emailHelp" class="form-text text-muted">Nous ne partageons pas vos données</small>
+  		</div>
+		<div class="form-group">
+    			<label for="exampleFormControlSelect1">Sujet du message</label>
+    			<select class="form-control" id="exampleFormControlSelect1">
+      				<option>Faire une réservation</option>
+      				<option>Proposer un plat</option>
+      				<option>Une question à propos des allergène</option>
+      				<option>Demander la liste de vins</option>
+      				<option>Autres</option>
+    			</select>
+  		</div>
+		<div class="form-group">
+    			<label for="textContent">Example textarea</label>
+    			<textarea class="form-control" id="textContent" rows="3"></textarea>
+  		</div>
+  		<div class="form-check">
+    			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    			<label class="form-check-label" for="exampleCheck1">Check me out</label>
+  		</div>
+		<i class="glyphicon glyphicon-cutlery"></i>
+  		<button type="submit" class="btn btn-primary">Envoyer<span class="glyphicon glyphicon-star"></span></button>
+	</form>
 
 
 

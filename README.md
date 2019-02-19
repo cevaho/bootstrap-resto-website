@@ -27,7 +27,7 @@ _Objectifs :_
 * Une page Restaurants avec l'adresse, un plan d'accès et les heures d'ouverture 
 		d’au moins trois restaurants (c’est une franchise !) _OK_    
 * Une page Contact avec un formulaire de contact 
-		comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options)), un champs de texte (pour le message), un bouton d'envoi avec [glyphicon](http://www.conseil-webmaster.com/formation/bootstrap/glyphicons-bootstrap.php). Mettre un label également sur cette page pour indiquer un truc
+		comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options)), un champs de texte (pour le message), un bouton d'envoi avec [glyphicon](http://www.conseil-webmaster.com/formation/bootstrap/glyphicons-bootstrap.php). Mettre un label également sur cette page pour indiquer un truc _OK_ 
 
 _Désirs du client_
 
