@@ -13,8 +13,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body>
-      <head>
+  <body class="container-fluid">
+      <div class="row">
+      <header class="col-12 col-lg-3 col-xl-3">
 
 		<!-- 
 			navbar associé à navbar-expand permet de rendre la navigation responsive
@@ -30,7 +31,7 @@
 			bg-light influence la couleur de fond de la navigation, ici gris clair
 				
 		-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar flex-column navbar-expand-lg navbar-light bg-light">
 
 			  <!-- LOGO Link to homepage-->
 			  <a class="navbar-brand active" href="#">My Resto Thaï</a>
@@ -45,7 +46,7 @@
 
 				    <!-- navbar-nav allows drop-down menu
 					 mr-auto va décaller le contenu d'une collone vers la droite-->
-				    <ul class="navbar-nav mr-auto">
+				    <ul class="navbar-nav flex-column mr-auto">
 
 				      <!--li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="carte.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Carte</a>
@@ -76,36 +77,49 @@
 			  </div>
 		</nav>
 
-      </head>
+      </header>
 
 
-      <main>
+      <main class=" col-12 col-lg-9 col-xl-9">
 
-	<div id="popup">
-	
-	</div>
+	<section id="popup">
+                    <form action="#" method="post">
+                        <div class="field">
+			    <h2>Pour améliorer votre expérience sur ce site,</h2>
+                            <label for="namer">nous aurions besoin de votre prénom :</label>
+                            <input type="text" name="namer" id="namer" />
+                        </div>
+                        <div class="actions">
+                            <button type="button" id="run">personnalisez</button>
+                        </div>
+                    </form>
+        </section>
 
-	<div class="jumbotron">
-		  <div class="container-fluid">
-		    <h2>Bienvenue : <span id="firstnamer"></span><span id="lastnamer"></span></h2>
-		    <p>Nous sommes très heureux de vous accueillir sur notre site, <br>nous vous souhaitons une agréable visite, 				<br>bon appétit !</p>
-		  </div>
-	</div> 
-
-	<section id="logoUp">
-		<div id="trigger">
-				<img id="slide-top" src="assets/img/logo.png" alt="Logo My resto Thaï">
-		</div>
+	<section class="jumbotron hidden">
+		  
+		    <div class="row">
+			    <div class="col-12 col-lg-6 col-md-6">
+			    	<h2>Bienvenue : <span id="firstnamer"></span></h2>
+			    	<p>Nous sommes très heureux de vous accueillir sur notre site, 
+					<br>nous vous souhaitons une agréable visite,
+					<br>bon appétit !</p>
+			    </div>
+			    <div id="logoUp" class="col-12 col-lg-6 col-md-6">
+					<div id="trigger">
+							<img id="slide-top" src="assets/img/logo.png" alt="Logo My resto Thaï">
+					</div>
+			    </div>
+		    </div>
+		  
 	</section>
-
-
 
       </main>
 
 
-      <footer>
-
+      <footer  class="col-12 col-lg-9 col-xl-9 offset-lg-3">
+		© My resto Thaï 2019
       </footer>
+</div>
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 # bootstrap-resto-website
 Responsive website using bootstrap  
 
-======== 
+===========
 
 
 
@@ -19,7 +19,7 @@ _Objectifs :_
 
 ## Composition du site
 
-* Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible.  
+* OK Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible.  
 		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut.  
 * Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
 * Une page Photos avec une galerie photos (minimum 10). 
@@ -31,9 +31,8 @@ _Objectifs :_
 
 _Désirs du client_
 
-* à l'ouverture de la page d'accueil, il y ait un pop-up qui récupère le prénom du visiteur, 
+* OK à l'ouverture de la page d'accueil, il y ait un pop-up qui récupère le prénom du visiteur, 
 		puis affiche un "bonjour {nom du visiteur} !" avant le texte de présentation du restaurant.  
-		[custom prompt](https://stackoverflow.com/questions/7853130/how-to-change-the-style-of-alert-box)
 * Le client souhaite que dans la partie Restaurants, en plus de l'affichage des horaires et des jours d'ouverture, 
 		il y ait une mention interactive "Nous sommes le { date et heure }, le restaurant est donc { ouvert / fermé }" en fonction de l'heure et la date de consultation du site.
 
@@ -43,6 +42,7 @@ _Conseils_
 * N’hésitez pas à faire des dessins, des plans, à prendre des notes sur papier avant de commencer.  
 * Lisez bien les consiiiiignes !!!  
 * Préparer votre contenu, ensuite seulement appliquer la structure puis les classes et id et ensuite le CSS ! Ne vous éparpillez pas, allez-y pas à pas, page par page,...
+* utiliser des banques d'images libres de droits comme pexels.com, pixabay et unsplash
 
 ## Tools (Bonus)
 
@@ -50,4 +50,5 @@ _Librairie conseillée :_
 
 * GSAP animation pour les animations javascript poussée
 * ScrollMagic pour trigeer des animations au scroll CSS/JS
+* collaps button sans jquery: [ici](https://davidwalsh.name/demo/css-slide.php)
 
