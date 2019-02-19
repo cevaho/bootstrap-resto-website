@@ -19,22 +19,22 @@ _Objectifs :_
 
 ## Composition du site
 
-* Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible._OK_  
+* Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible. _OK_  
 		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut.  
 * Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
 * Une page Photos avec une galerie photos (minimum 10). 
 		On veut 4 photos sur chaque ligne en format Desktop, 2 en format Tablet et 1 en format smartphone.  
 * Une page Restaurants avec l'adresse, un plan d'accès et les heures d'ouverture 
-		d’au moins trois restaurants (c’est une franchise !)  
+		d’au moins trois restaurants (c’est une franchise !) _OK_    
 * Une page Contact avec un formulaire de contact 
 		comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options)), un champs de texte (pour le message), un bouton d'envoi avec [glyphicon](http://www.conseil-webmaster.com/formation/bootstrap/glyphicons-bootstrap.php). Mettre un label également sur cette page pour indiquer un truc
 
 _Désirs du client_
 
 * à l'ouverture de la page d'accueil, il y ait un pop-up qui récupère le prénom du visiteur, 
-		puis affiche un "bonjour {nom du visiteur} !" avant le texte de présentation du restaurant._OK_  
+		puis affiche un "bonjour {nom du visiteur} !" avant le texte de présentation du restaurant. _OK_  
 * Le client souhaite que dans la partie Restaurants, en plus de l'affichage des horaires et des jours d'ouverture, 
-		il y ait une mention interactive "Nous sommes le { date et heure }, le restaurant est donc { ouvert / fermé }" en fonction de l'heure et la date de consultation du site._OK_
+		il y ait une mention interactive "Nous sommes le { date et heure }, le restaurant est donc { ouvert / fermé }" en fonction de l'heure et la date de consultation du site. _OK_
 
 _Conseils_
 
