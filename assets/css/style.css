@@ -1,11 +1,12 @@
 
+.row h2{
+  margin-top:20px;
+}
 
-
+/*-------INDEX page------*/
 #popup{
   opacity:1;
   height:250px;
-  /*-webkit-transition: height 2s;
-  transition: height 2s;*/
 }
 
 #popup.closer{
@@ -14,16 +15,14 @@
   transition: opacity 1.2s, height 2s;
 }
 
-.jumbotron{opacity:1;height:auto;
--webkit-transition: opacity 2s,height 2s;
-transition: opacity 2s,height 2s;
+.jumbotron{
+  opacity:1;
+  height:auto;
+  -webkit-transition: opacity 2s,height 2s;
+  transition: opacity 2s,height 2s;
 }
 
 .jumbotron.hidden{opacity:0;height:0px;}
-
-
-
-
 
 #logoUp{
   min-height: 485px;
@@ -37,7 +36,7 @@ transition: opacity 2s,height 2s;
 }
 
 .jumbotron.go #slide-top{
-  /*-webkit-animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;*/
+  -webkit-animation: slide-top 2s cubic-bezier(0.5,1, 0.5, 0.9) 1s both;
   animation: slide-top 2s cubic-bezier(0.5,1, 0.5, 0.9) 1s both;
   position: relative;
   margin-top: 200px;
@@ -70,3 +69,14 @@ transition: opacity 2s,height 2s;
               transform: translateY(-200px);
     }
 }
+/*-------fin INDEX page------*/
+
+
+.fa-pepper-hot{color:red;}
+
+
+/*-------FOOTER------*/
+footer{
+  margin-top:30px;
+}
+/*-------fin FOOTER------*/

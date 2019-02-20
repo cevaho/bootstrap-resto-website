@@ -20,14 +20,14 @@ _Objectifs :_
 ## Composition du site
 
 * Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible. _OK_  
-		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut.  
-* Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
-* Une page Photos avec une galerie photos (minimum 10). 
-		On veut 4 photos sur chaque ligne en format Desktop, 2 en format Tablet et 1 en format smartphone.  
+		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut. _OK_   
 * Une page Restaurants avec l'adresse, un plan d'accès et les heures d'ouverture 
 		d’au moins trois restaurants (c’est une franchise !) _OK_    
 * Une page Contact avec un formulaire de contact 
 		comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options)), un champs de texte (pour le message), un bouton d'envoi avec [glyphicon](http://www.conseil-webmaster.com/formation/bootstrap/glyphicons-bootstrap.php)-> pas présenta avec Bootstrap 4, remplacé par fontawesome..... Mettre un label également sur cette page pour indiquer un truc _OK_ 
+* Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
+* Une page Photos avec une galerie photos (minimum 10). 
+		On veut 4 photos sur chaque ligne en format Desktop, 2 en format Tablet et 1 en format smartphone. 
 
 _Désirs du client_
 
