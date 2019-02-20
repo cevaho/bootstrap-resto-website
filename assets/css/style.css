@@ -160,7 +160,18 @@ main .fas.fa-pepper-hot{
 .opener.bg-success{
   padding: 2px 5px;
 }
+
+address i{
+  font-family:'Merienda', cursive;
+  font-size: 18px;
+}
 /*-------fin RESTAURANT page------*/
+
+/*------- CONTACT page--------*/
+#contactpage main .fas{
+  color:white;
+}
+/*-------fin CONTACT page-----*/
 
 /*-------FOOTER------*/
 footer{
