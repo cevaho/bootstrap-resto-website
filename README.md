@@ -12,9 +12,9 @@ _Objectifs :_
 * Liens relatifs aux autres pages (pas de liens absolus) _OK_  
 * Fichiers rangés dans des dossiers (assets, puis css, js et img dedans) _OK_  
 * GitHub : le lien de la page [GitHubPage](https://cevaho.github.io/bootstrap-resto-website/) se trouve à côté de la description (donc il faut une description au repo) ET on veut un readme _OK_  
-* Le site doit être intégralement responsive.  
-* Une favicon  
-* Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones  
+* Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones _OK_  
+* Le site doit être intégralement responsive._OK_  
+* Une favicon et un logo  
 * Lighthouse : 80% sur toutes les catégories  
 
 ## Composition du site
@@ -24,10 +24,10 @@ _Objectifs :_
 * Une page Restaurants avec l'adresse, un plan d'accès et les heures d'ouverture 
 		d’au moins trois restaurants (c’est une franchise !) _OK_    
 * Une page Contact avec un formulaire de contact 
-		comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options)), un champs de texte (pour le message), un bouton d'envoi avec [glyphicon](http://www.conseil-webmaster.com/formation/bootstrap/glyphicons-bootstrap.php)-> pas présenta avec Bootstrap 4, remplacé par fontawesome..... Mettre un label également sur cette page pour indiquer un truc _OK_ 
-* Une page Carte avec les menus présentés sous forme de liste groupée avec badges  
+		comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options)), un champs de texte (pour le message), un bouton d'envoi avec [glyphicon](http://www.conseil-webmaster.com/formation/bootstrap/glyphicons-bootstrap.php)-> pas avec Bootstrap 4, remplacé par fontawesome..... Mettre un label également sur cette page pour indiquer un truc _OK_ 
+* Une page Carte avec les menus présentés sous forme de liste groupée avec badges _OK_  
 * Une page Photos avec une galerie photos (minimum 10). 
-		On veut 4 photos sur chaque ligne en format Desktop, 2 en format Tablet et 1 en format smartphone. 
+		On veut 4 photos sur chaque ligne en format Desktop, 2 en format Tablet et 1 en format smartphone. _OK_
 
 _Désirs du client_
 
@@ -42,7 +42,7 @@ _Conseils_
 * N’hésitez pas à faire des dessins, des plans, à prendre des notes sur papier avant de commencer.  
 * Lisez bien les consiiiiignes !!!  
 * Préparer votre contenu, ensuite seulement appliquer la structure puis les classes et id et ensuite le CSS ! Ne vous éparpillez pas, allez-y pas à pas, page par page,...
-* utiliser des banques d'images libres de droits comme pexels.com, pixabay et unsplash
+* utiliser des banques d'images libres de droits comme [pexels.com](https://www.pexels.com/search/thai%20food/), pixabay et unsplash
 
 ## Tools (Bonus)
 
