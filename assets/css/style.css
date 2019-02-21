@@ -196,7 +196,7 @@ screen size for bootstrap
 @media (max-width:768px){
 main{margin-top:140px;}
 .navbar-brand img{max-height:50px;}
-#popup{height:350px;}
+#popup{min-height:350px;}
 .jumbotron.go #slide-top{
   -webkit-animation: slide-topdeux 2s cubic-bezier(0.5,1, 0.5, 0.9) 1s both;
   animation: slide-topdeux 2s cubic-bezier(0.5,1, 0.5, 0.9) 1s both;
