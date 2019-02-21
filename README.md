@@ -13,9 +13,9 @@ _Objectifs :_
 * Fichiers rangés dans des dossiers (assets, puis css, js et img dedans) _OK_  
 * GitHub : le lien de la page [GitHubPage](https://cevaho.github.io/bootstrap-resto-website/) se trouve à côté de la description (donc il faut une description au repo) ET on veut un readme _OK_  
 * Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones _OK_  
-* Le site doit être intégralement responsive._OK_  
-* Une favicon et un logo  
-* Lighthouse : 80% sur toutes les catégories  
+* Le site doit être intégralement responsive. _OK_  
+* Une favicon et un logo _OK_  
+* Lighthouse : 80% sur toutes les catégories _OK_  
 
 ## Composition du site
 

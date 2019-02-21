@@ -110,7 +110,8 @@ nav li a.nav-link{
   height:auto;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  max-width: 300px;
+  min-width:100%;
   z-index: 3;
   filter: opacity(1);
 }
@@ -194,6 +195,22 @@ screen size for bootstrap
 
 @media (max-width:768px){
 main{margin-top:140px;}
+.navbar-brand img{max-height:50px;}
+#popup{height:350px;}
+.jumbotron.go #slide-top{
+  -webkit-animation: slide-topdeux 2s cubic-bezier(0.5,1, 0.5, 0.9) 1s both;
+  animation: slide-topdeux 2s cubic-bezier(0.5,1, 0.5, 0.9) 1s both;
+}
+@keyframes slide-topdeux {
+    0% {
+      -webkit-transform: translateY(-180px);
+              transform: translateY(-180px);
+    }
+    100% {
+      -webkit-transform: translateY(-70px);
+              transform: translateY(-70px);
+    }
+}
 }
 @media (min-width:768px){
 	body{
