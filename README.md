@@ -15,12 +15,12 @@ _Objectifs :_
 * Utilisation de [FontAwesome](https://fontawesome.com/start) pour les icones _OK_  
 * Le site doit être intégralement responsive. _OK_  
 * Une favicon et un logo _OK_  
-* Lighthouse : 80% sur toutes les catégories _OK_  
+* Lighthouse : 80% sur toutes les catégories [-> resultat](https://cevaho.github.io/bootstrap-resto-website/Mai-thai-Lighthouse-Report.pdf)_OK_  
 
 ## Composition du site
 
 * Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible. _OK_  
-		avec le logo ou le nom du restaurant qui s'anime du bas vers le haut. _OK_   
+		avec le logo ou le nom du restaurant qui s'anime. _OK_   
 * Une page Restaurants avec l'adresse, un plan d'accès et les heures d'ouverture 
 		d’au moins trois restaurants (c’est une franchise !) _OK_    
 * Une page Contact avec un formulaire de contact 
