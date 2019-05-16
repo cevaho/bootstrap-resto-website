@@ -17,6 +17,8 @@ _Objectifs :_
 * Une favicon et un logo _OK_  
 * Lighthouse : 80% sur toutes les catégories [-> resultat](https://cevaho.github.io/bootstrap-resto-website/Mai-thai-Lighthouse-Report.pdf)_OK_  
 
+![page layout](mai-resto-thai.png)
+
 ## Composition du site
 
 * Une page Accueil avec un composant [Jumbotron](http://www.conseil-webmaster.com/formation/bootstrap/jumbotron-bootstrap.php), une class bootstrap pour un simple bloc contenant un message bien visible. _OK_  
